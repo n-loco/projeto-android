@@ -106,12 +106,48 @@ main h1 {
 
     color: var(--cor5);
     font-family: var(--font-droid);
+    font-size: 2em;
 
 }
 
 main h2 {
 
     font-family: var(--font-droid);
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    padding: 5px;
+
+}
+
+main p {
+
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5em;
+
+}
+
+main strong {
+
+    color: var(--cor4);
+    font-weight: bold;
+    
+}
+
+main a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 2px 6px;
+    background-color: var(--cor1);
+
+}
+
+main a:hover {
+
+    text-decoration: underline;
 
 }
 
@@ -123,7 +159,7 @@ main img {
 
 .pq {
 
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 
